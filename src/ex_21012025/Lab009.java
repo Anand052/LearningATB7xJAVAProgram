@@ -11,5 +11,6 @@ public class Lab009 {
         b= b+1;
 
         System.out.println(b);
+        Sustem.out.println("Git Pull done");
     }
 }
