@@ -12,6 +12,5 @@ public class Lab009 {
 
         System.out.println(b);
         System.out.println("Git Pull done");
-        System.out.println("Git Pull done with selecting file to pull");
     }
 }
