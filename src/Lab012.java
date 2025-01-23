@@ -3,10 +3,10 @@ public class Lab012 {
 
         int a = 25;
         int b = 9;
-        char c = '\n';
+        char c= Lab011.c;
 
         System.out.println(a+b);
-        System.out.println(c);
+        System.out.println(Lab011.c);
 
 
         String s1 = "Anand";

@@ -1,6 +1,8 @@
 public class Lab011 {
+
+    public static char c = '\n';
     public static void main(String[] args) {
-        char c = '\n';
+
         int n=9;
         System.out.printf("%d",n);
         System.out.println(c);
