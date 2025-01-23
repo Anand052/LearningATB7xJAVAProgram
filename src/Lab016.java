@@ -1,6 +1,8 @@
 public class Lab016 {
     public static void main(String[] args) {
 
+//        Modulus and division concept
+
         double a = 27;
         double b = 7;
         double result = a%b; // Modulus operator - Remainder
