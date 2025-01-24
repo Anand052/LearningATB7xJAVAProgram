@@ -1,3 +1,5 @@
+package ex_23012015;
+
 public class Lab011 {
 
     public static char c = '\n';
@@ -15,3 +17,4 @@ public class Lab011 {
 
     }
 }
+

@@ -1,3 +1,5 @@
+package ex_23012015;
+
 public class Lab012 {
     public static void main(String[] args) {
 
