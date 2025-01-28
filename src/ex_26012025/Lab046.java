@@ -15,6 +15,6 @@ public class Lab046 {
         System.out.println(name2.toUpperCase());
         System.out.println(name.charAt(2));
         System.out.println(name.charAt(0));
-//        System.out.println(name.charAt(10));  // Index 10 out of bounds for length 5
+//        System.out.println(name.charAt(10));  // Exception: Index 10 out of bounds for length 5
     }
 }
