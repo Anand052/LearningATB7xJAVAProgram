@@ -1,5 +1,7 @@
 package ex_29012025;
 
+import java.util.Scanner;
+
 public class Lab073 {
     public static void main(String[] args) {
         /**
@@ -13,5 +15,34 @@ public class Lab073 {
          * side1, side2, side3 -->
          */
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter side1");
+        int side1 = sc.nextInt();
+
+        System.out.println("Enter side2");
+        int side2 = sc.nextInt();
+
+        System.out.println("Enter side3");
+        int side3 = sc.nextInt();
+
+        if (side1 == side2) {
+            if (side2 == side3) {
+
+                System.out.println("Triangle is Equilateral");
+
+            } else if (side2!=side3) {
+                System.out.println("Triangle is Isosceles");
+
+            }
+        }else if(side1!=side2){
+            if(side2==side3) {
+
+                System.out.println("Triangle is Isoceles");
+        } else if (side2!=side3) {
+            System.out.println("Triangle is Scalene");
+
+        }
+
+        }
     }
 }

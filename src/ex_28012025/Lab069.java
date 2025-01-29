@@ -58,7 +58,7 @@ public class Lab069 {
             grade = 'D';
         }else if (score >=50 && score <= 59) {
             grade = 'E';
-        }else if (score < 0 || score > 100) {
+        }else if (score < 0 || score < 100) {
             grade = 'O';
         }else {
             grade = 'F';
