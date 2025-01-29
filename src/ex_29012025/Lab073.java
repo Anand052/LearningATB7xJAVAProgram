@@ -15,6 +15,9 @@ public class Lab073 {
          * side1, side2, side3 -->
          */
 
+
+        // STILL WRONG ALL CONDITION NOT COVER
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter side1");
         int side1 = sc.nextInt();
@@ -30,19 +33,23 @@ public class Lab073 {
 
                 System.out.println("Triangle is Equilateral");
 
-            } else if (side2!=side3) {
+            } else if (side2 != side3) {
                 System.out.println("Triangle is Isosceles");
 
             }
-        }else if(side1!=side2){
-            if(side2==side3) {
+        } else if (side1 != side2) {
+            if (side2 == side3) {
 
                 System.out.println("Triangle is Isoceles");
-        } else if (side2!=side3) {
-            System.out.println("Triangle is Scalene");
+            } else if (side2 != side3) {
+                System.out.println("Triangle is Scalene");
+            }
 
-        }
+        } else if (side1 == side3) {
+            if (side2 != side1) {
 
+                System.out.println("Triangle is Isoceles");
+            }
         }
     }
 }
