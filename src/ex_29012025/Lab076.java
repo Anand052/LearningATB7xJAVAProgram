@@ -15,21 +15,8 @@ public class Lab076 {
 
 
         switch(character){
-            case 'a':
+            case 'a', 'e', 'i', 'o', 'u':
                 System.out.println("Vovel");
-                break;
-            case 'e':
-                System.out.println("Vovel");
-                break;
-            case 'i':
-                System.out.println("Vovel");
-                break;
-            case 'o':
-                System.out.println("Vovel");
-                break;
-            case 'u':
-                System.out.println("Vovel");
-                break;
             default:
                 System.out.println("Consonant");
 
