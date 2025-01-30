@@ -10,6 +10,7 @@ public class Lab045 {
 
         System.out.println(s1+s2+a+b); // Result - KKVV8791
         System.out.println(s1+s2+(a+b)); // Result - KKVV178
+        System.out.println(a + b + s1 + s2+ a + b);
 
     }
 }

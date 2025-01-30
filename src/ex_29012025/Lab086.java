@@ -1,5 +1,7 @@
 package ex_29012025;
 
+import java.util.Scanner;
+
 public class Lab086 {
     public static void main(String[] args) {
         /**
@@ -9,7 +11,23 @@ public class Lab086 {
          * print "FIZZBUZZ"
          */
 
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter num");
+//        int num = sc.nextInt();
 
+        for(int num=1; num<= 100;num++) {
+                if(num % 3 == 0 && num % 5 == 0){
+                    System.out.println("FIZZBUZZ");
+                } else if (num % 5 == 0) {
+                    System.out.println("BUZZ");
+                } else if (num % 3 == 0) {
+                    System.out.println("FIZZ");
+                }else{
+                System.out.println(num);
+            }
+
+
+        }
 
     }
 }
